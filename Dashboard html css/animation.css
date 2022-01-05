@@ -1,0 +1,14 @@
+.Side-logo:hover{
+     transform: rotate(360deg);  
+     transition-duration:2s;  
+}
+.active 
+{
+    color: var(--menu-icon);
+}
+
+.icon-menu:hover
+{
+    color:var(--blue-color);
+}
+
