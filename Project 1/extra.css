@@ -1,0 +1,610 @@
+@media only screen and (min-width:250px) and (max-width:320px) {
+  
+    .container 
+    {
+       margin-left:20px;
+       margin-bottom:20px;           
+    }
+    .header-logo {
+      margin-top:-25px;
+    }
+    .menu { 
+      display:none;
+      text-align:left;
+      position:relative;
+      right:140px;
+      padding:16px 0;
+      margin-top:35px;         
+      
+    }
+     .menu li:hover {
+      display: inline-block;
+      background-color:#4c9e9e;
+      border-radius:5px;
+      transition: 0.3s ease;
+       } 
+        
+     .menu li + li {
+      margin-top:12px;    
+     }
+     input[type=checkbox]:checked ~ .menu{
+      display:block;      
+     }
+      .hamburger {
+      display:flex;
+      top:10px;
+     }
+     .header-btn
+          {
+            display: none;
+          }
+      .img-m3  
+          {          
+            display: none;         
+             }
+    .header-1 
+    {
+      margin-top:-120px;
+      padding-right:10px;
+     font-size:25px;         
+    } 
+    .header-2 
+   {    margin-top:-35px;
+        font-size:18px;      
+     }  
+    .header-letter
+    {
+      display: flex;
+      flex-wrap: wrap;
+      width:auto;
+    } 
+    .Header-2-letter
+     {
+       display: flex;
+       flex-wrap: wrap;
+       width:auto;
+     } 
+    .h1
+         {
+            font-size:25px; 
+            padding-left:0px;         
+          }
+    .h2 
+          {
+            font-size:19px;
+            padding-left:0px; 
+            padding-right:0px;              
+          }
+         
+    .header-2-container 
+      { 
+        padding-left: 20px;
+        padding-top:20px;
+        padding-bottom:20px;
+      }      
+    .litle-1  
+             {
+              padding-left:20px;
+             } 
+      .img-m1,.img-m2,.img-m3,.img-m4,.bg-color{
+              display: none;
+                      } 
+      .final-btn,.final-navbar,.nav-end
+                 {    
+                   display: none;     
+                      }   
+       .final  
+                      {
+                         padding-bottom:120px;                                      
+                      } 
+       .final-block {
+                       display: flex;
+                      justify-content:none;
+  
+                     }               
+              .blog4,.blog3,.blog2,.blog1 
+          {
+            width: 300px;
+            border-radius:12px 12px 10px 10px ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin:15px;
+            height:auto;
+            display: inline-block;
+          }    
+          .header-3
+          {
+           margin-left:10px;
+           margin-bottom:10px;
+           margin-right:10px;
+           padding-top:10px;
+                          } 
+          .second-2
+          {
+            padding-top:-90px;
+          }                                                             
+  }
+  
+  @media only screen and (min-width:321px) and (max-width:480px) {
+          
+    .container 
+       {
+        margin-left:20px;
+        margin-bottom:20px;           
+       }
+       .header-logo {
+        margin-top:-25px;
+      } 
+      .menu { 
+        display:none;
+        text-align:left;
+        position:relative;
+        right:140px;
+        padding:16px 0;
+        margin-top:35px;         
+        
+      }
+       .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        border-radius:5px;
+        transition: 0.3s ease;
+         } 
+          
+       .menu li + li {
+        margin-top:12px;    
+       }
+       input[type=checkbox]:checked ~ .menu{
+        display:block;      
+       }
+        .hamburger {
+        display:flex;
+        top:20px;
+       }
+       .header-btn
+          {
+            display: none;
+          }
+       .menu
+           { 
+           right:140px;       
+           }   
+       .hamburger
+       {
+         right:30px;              
+       }    
+       .menu
+           { 
+           right:140px;       
+           }   
+       .hamburger
+       {
+         right:30px;              
+       }    
+       .header-1 
+       {
+         margin-top:-120px;
+         padding-right:30px;
+         font-size:25px;         
+       } 
+       .header-2 
+      {    margin-top:-35px;
+           font-size:18px;      
+        }  
+       .header-letter
+       {
+         display: flex;
+         flex-wrap: wrap;
+         width:auto;
+       } 
+       .Header-2-letter
+        {
+          display: flex;
+          flex-wrap: wrap;
+          width:auto;
+        }
+        .header-2-container 
+       { 
+          padding-left: 20px;
+          padding-top:20px;
+          padding-bottom:20px;
+       } 
+       .h1
+            {
+               font-size:24px; 
+               padding-left:0px;         
+             }
+       .h2 
+             {
+               font-size:18px;
+               padding-left:0px;
+               padding-right:10px;               
+             } 
+             .litle-1  
+             {
+              padding-left:15px;
+             } 
+       
+           .final-btn 
+         {
+          display: none;               
+         } 
+         .footer-logo
+         {
+           position: static;
+           display: flex;
+           flex-direction: column;
+           justify-content:space-evenly;
+         }  
+         .img-m1,.img-m2,.img-m3,.img-m4,.bg-color{
+          display: none;
+                  }     
+        .header-3
+                  {
+                   margin-left:20px;
+                   margin-bottom:20px;
+                   margin-right:20px;
+                   padding-top:20px;
+                                  }  
+        .final-btn,.final-navbar,.nav-end
+                                  {    
+                                    display: none;     
+                                   }                            
+  
+   } 
+   @media only screen and (min-width:481px) and (max-width:768px) {
+          
+    .container 
+       {
+        margin-left:20px;
+        margin-bottom:20px;           
+       }
+       .header-logo {
+        margin-top:-25px;
+      } 
+      .menu { 
+        display:none;
+        text-align:left;
+        position:relative;
+        right:140px;
+        padding:16px 0;
+        margin-top:35px;         
+        
+      }
+       .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        border-radius:5px;
+        transition: 0.3s ease;
+         } 
+          
+       .menu li + li {
+        margin-top:12px;    
+       }
+       input[type=checkbox]:checked ~ .menu{
+        display:block;      
+       }
+        .hamburger {
+        display:flex;
+        top:20px;
+       }
+       .header-btn
+          {
+            display: none;
+          }
+       .menu
+           { 
+           right:140px;       
+           }   
+       .hamburger
+       {
+         right:30px;              
+       }    
+       .header-1 
+       {
+         margin-top:-120px;
+         padding-bottom:10px;
+         font-size:25px;         
+       } 
+       .header-2 
+      {    margin-top:-35px;
+           font-size:18px;      
+        }  
+       .header-letter
+       {
+         display: flex;
+         flex-wrap: wrap;
+         width:auto;
+       } 
+       .Header-2-letter
+        {
+          display: flex;
+          flex-wrap: wrap;
+          width:auto;
+        } 
+       .h1
+            {
+               font-size:24px; 
+               padding-left:0px;         
+             }
+       .h2 
+             {
+               font-size:18px;
+               padding-left:0px;               
+             }
+      .header-2-container 
+      { 
+        padding-left: 20px;
+        padding-top:20px;
+        padding-bottom:20px;
+      } 
+              
+             .litle-1  
+             {
+              padding-left:15px;
+             } 
+             .img-m1,.img-m2,.img-m3,.img-m4,.bg-color{
+              display: none;
+                      } 
+             .final-btn,.final-navbar,.nav-end
+                 {    
+                   display: none;     
+                      }   
+       
+           .final-btn 
+         {
+          display: none;               
+         } 
+         .footer-logo
+         {
+           position: static;
+           display: flex;
+           flex-direction: column;
+           justify-content:space-evenly;
+         }  
+   } 
+  
+  
+    
+   @media only screen and (min-width:769px) and (max-width:992px) {
+    .menu { 
+      display:none;
+      text-align:left;
+      position:relative;
+      right:240px;
+      padding:16px 0;
+      margin-top:35px;         
+      
+    }
+     .menu li:hover {
+      display: inline-block;
+      background-color:#4c9e9e;
+      border-radius:5px;
+      transition: 0.3s ease;
+       } 
+        
+     .menu li + li {
+      margin-top:12px;    
+     }
+     input[type=checkbox]:checked ~ .menu{
+      display:block;      
+     }
+      .hamburger {
+      display:flex;
+     }
+     .header-btn
+          {
+            display: none;
+          }
+      .img-m3  
+          {          
+            display: none;         
+             } 
+             .header-1 
+             {
+               margin-top:-120px;
+               padding-right:30px;
+               margin-right: 520px;
+               padding-bottom:10px;
+               font-size:25px;         
+             } 
+             .header-2 
+            {   padding-bottom:-40px;
+                padding-bottom:10px;
+                 font-size:20px;      
+              }  
+             .header-letter
+             {
+               display: flex;
+               flex-wrap: wrap;
+               width:auto;
+             } 
+             .Header-2-letter
+              {
+                display: flex;
+                flex-wrap: wrap;
+                width:auto;
+              } 
+             .h1
+                  {
+                     font-size: 24px; 
+                     padding-left:0px;         
+                   }
+             .h2 
+                   {
+                     font-size:20px;
+                     padding-left:0px;               
+                   }        
+          .header-2-container
+           {      
+            padding-left:20px;
+            padding-top: 20px;
+            padding-bottom: 20px;         
+            }
+           .header-3
+           {
+            margin-left:20px;
+            margin-right:20px;
+            padding-top: 20px;           
+           } 
+           .final-navgation,.nav-end 
+            {
+              display: none;
+            }
+            .final
+              {
+               padding-bottom:130px;
+              }
+              .img-m1,.img-m2,.img-m3,.img-m4,.bg-color{
+                display: none;
+                        } 
+   }
+  
+   @media only screen and (min-width:993px) and (max-width:1023px) {
+    .menu { 
+      display:none;
+      text-align:left;
+      position:relative;
+      right:240px;
+      padding:16px 0;
+      margin-top:35px;         
+      
+    }
+     .menu li:hover {
+      display: inline-block;
+      background-color:#4c9e9e;
+      border-radius:5px;
+      transition: 0.3s ease;
+       } 
+        
+     .menu li + li {
+      margin-top:12px;    
+     }
+     input[type=checkbox]:checked ~ .menu{
+      display:block;      
+     }
+      .hamburger {
+      display:flex;
+     }
+     .header-btn
+          {
+            display: none;
+          }
+      .img-m3  
+          {          
+            display: none;         
+             } 
+             .header-1 
+             {
+               margin-top:-120px;
+               padding-right:30px;
+               font-size:25px;         
+             } 
+             .header-2 
+            {    margin-top:-35px;
+                 font-size:18px;      
+              }  
+             .header-letter
+             {
+               display: flex;
+               flex-wrap: wrap;
+               width:auto;
+             } 
+             .Header-2-letter
+              {
+                display: flex;
+                flex-wrap: wrap;
+                width:auto;
+              } 
+             .h1
+                  {
+                     font-size: 24px; 
+                     padding-left:0px;         
+                   }
+             .h2 
+                   {
+                     font-size:20px;
+                     padding-left:0px;               
+                   }        
+          .header-2-container
+           {      
+            padding-left:20px;
+            padding-top: 20px;
+            padding-bottom: 20px;         
+            }
+           .header-3
+           {
+            margin-left:20px;
+            margin-right:20px;
+            padding-top: 20px;           
+           } 
+           .final-navgation,.nav-end 
+            {
+              display: none;
+            }
+            .footer-logo
+              {
+               height: max-content;
+              }
+        
+   }
+  
+  
+   @media only screen and (min-width:1024px) and (max-width:1200px) {
+      .img-m1,.img-m2,.img-m4,.bg-color{
+        display: none;
+                }   
+           .img-m3  
+           {          
+             right:50px; 
+             top:90px;          
+             } 
+             .header-1 
+             {
+               margin-top:10px;
+               padding-right:420px;
+               padding-bottom:40px;
+               font-size:45px;         
+             } 
+             .header-2 
+            {    margin-top:-35px;
+                 font-size:25px;      
+              }  
+             .header-letter
+             {
+               display: flex;
+               flex-wrap: wrap;
+               width:800;
+             } 
+             .Header-2-letter
+              {
+                display: flex;
+                flex-wrap: wrap;
+                width:auto;
+              } 
+             .h1
+                  {
+                     font-size: 24px; 
+                     padding-left:0px;         
+                   }
+             .h2 
+                   {
+                     font-size:20px;
+                     padding-left:0px;               
+                   }        
+          .Header-box
+         {
+           flex-wrap: wrap;            
+          }   
+          .header-btn
+            {
+              padding-right:80px;
+            }
+             
+     }
+     @media only screen and (min-width:1201px) and (max-width:1800px)
+          {
+            .img-m1,.img-m2,.img-m4,.bg-color{
+              display:block;
+                      }             
+          }
+    
